@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #26342d;
+  --color-page: #f6f7f3;
+  --color-muted: #829087;
+  --color-sage: #a4b8a5;
+  --color-surface: #f3f5f0;
+  --color-surface-strong: #e8ede7;
+  --color-line: #e7ebe5;
+  --color-danger: #b94b4b;
+  --shadow-card: 0 24px 70px -38px rgb(38 52 45 / 24%);
+}
+
+@layer base {
+  body {
+    @apply m-0 bg-page font-sans antialiased;
+  }
+}
